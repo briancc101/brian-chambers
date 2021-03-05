@@ -1,0 +1,154 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: Montserrat;
+    font-weight: 400;
+    margin: 0;
+    padding: 25px 0 12.5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header {
+    background-color: #f6f5f5;
+    font-family: Montserrat;
+    text-align: center;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+#header-nav ul {
+    padding: 0 0 25px;
+    margin: 0;
+}
+
+.header-nav-entry { 
+    display: inline;
+    padding: 0 15px;
+}
+
+.header-nav-entry:hover {
+    color: #1687a7;
+
+}
+
+.section-header {
+    text-align: center;
+}
+
+#about {
+    background-color: #1687a7;
+    padding-bottom: 66.5px;
+}
+
+#about-console {
+    color: #f6f5f5;
+    width: 600px;
+    padding: 40px;
+    height: 450px;
+    margin: 0 auto;
+    background: #383737;
+    border-radius: 12.5px;
+}
+
+.console-property {
+    font-family: Roboto Mono;
+    font-weight: 300;
+}
+
+.console-value {
+    font-family: Roboto Mono;
+    font-weight: 600;
+}
+
+#resume {
+    padding-bottom: 50px;
+}
+
+#resume-body {
+    width: 700px;
+    margin: auto;
+}
+
+#resume-download {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-family: Roboto Mono;
+    font-weight: 600;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#resume-download:hover {
+    color: #1687a7;
+    font-weight: 700;
+}
+
+.resume-section {
+    text-align: left;
+}
+
+.resume-icon {
+    float: left;
+    display: block;
+    height: 75px;
+    width: 75px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.resume-left {
+    font-weight: 400;
+    font-family: Karla;
+}
+
+.resume-right {
+    float: right;
+    font-weight: 400;
+    font-family: Karla;
+}
+
+.resume-entry {
+    margin-bottom: 75px;
+}
+
+#contact {
+    background-color: #276678;
+    padding-bottom: 65.5px;
+}
+
+#contact-console {
+    color: #f6f5f5;
+    width: 600px;
+    padding: 40px;
+    height: 200px;
+    margin: 0 auto;
+    background: #383737;
+    border-radius: 12.5px;
+}
+
+#linkedinlink {
+    color: #f6f5f5
+}
+
+#linkedinlink:hover {
+    color: #1687a7;
+    font-weight: 700;
+}
+
+#footer {
+    font-family: Roboto Mono;
+}
